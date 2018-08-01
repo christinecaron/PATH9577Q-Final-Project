@@ -43,7 +43,7 @@ Christines-MacBook-Pro-2:Caron_Christine_PATH9577Q_FinalProject christinecaron$ 
 the program will provide you with a prompt:
 ```shell
 Christines-MacBook-Pro-2:Caron_Christine_PATH9577Q_FinalProject christinecaron$ python3 Caron_Final_Project.py
-Incorrect number of arguments. For usage, enter: <python3> <Caron_Final_Project.py> <-h>
+Incorrect number of arguments. For usage information, enter: <python3> <Caron_Final_Project.py> <-h>
 usage: Caron_Final_Project.py [-h] path additional usage
 Caron_Final_Project.py: error: the following arguments are required: path, additional usage
 ```
