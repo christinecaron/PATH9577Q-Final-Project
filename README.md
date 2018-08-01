@@ -24,6 +24,16 @@ Within the folder, there are:
 2. 1x Program file (.py)
 3. 3x Test .csv files of recently acquired flow cytometry data 
 
+**Sample Input and Ouptut Photos**
+
+Sample input (one file):
+
+![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleinput.png "Sample input")
+
+Sample output (multiple merged files):
+
+![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleinput.png "Sample output")
+
 **How to Use This Program and Features**
 
 If you run the program itself with no file entered into command line,
