@@ -70,7 +70,7 @@ Christines-MacBook-Pro-2:Caron_Christine_Final_Project christinecaron$ python3 C
 ```
 
 As you enter the files into the command line (I chose to do it this way since I typically only receive one flow 
-cytometry output file per experiment), they will be added to ['merged_file_FINAL.csv'](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Sample%20Output%20Files/merged_file_FINAL.csv)file and a database will be generated, with unnecessary rows removed from the file. 
+cytometry output file per experiment), they will be added to ['merged_file_FINAL.csv'](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Sample%20Output%20Files/merged_file_FINAL.csv) file and a database will be generated, with unnecessary rows removed from the file. 
 
 **Sample Input and Ouptut Photos**
 
