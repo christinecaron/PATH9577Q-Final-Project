@@ -17,22 +17,14 @@ empty compensation rows, and empty "Mean" and "SD" rows.
 Make sure you have python v3.x installed on your computer. Available [here](https://www.python.org/).
 Also make sure that you have a UNIX-like computing environment. This program was built and tested using macOS.
 
-**Description of Package Contents**
+**Description of Repository Contents**
 
 Within the folder, there are:
 1. 1x README.md file (you are here)
 2. 1x Program file (.py)
 3. 3x Test .csv files of recently acquired flow cytometry data 
 
-**Sample Input and Ouptut Photos**
-
-Sample input (one file):
-
-![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleinput.png "Sample input")
-
-Sample output (multiple merged files):
-
-![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleoutput.png "Sample output")
+In addition, within this repository you will also find a folder *Sample Output Files* where you will find .csv files that I have generated as part of the submission process for this assigment. 
 
 **How to Use This Program and Features**
 
@@ -42,25 +34,25 @@ Christines-MacBook-Pro-2:Caron_Christine_PATH9577Q_FinalProject christinecaron$ 
 ```
 the program will provide you with a prompt:
 ```shell
-Christines-MacBook-Pro-2:Caron_Christine_PATH9577Q_FinalProject christinecaron$ python3 Caron_Final_Project.py
-Incorrect number of arguments. For usage information, enter: <python3> <Caron_Final_Project.py> <-h>
-usage: Caron_Final_Project.py [-h] path additional usage
-Caron_Final_Project.py: error: the following arguments are required: path, additional usage
+Christines-MacBook-Pro-2:Caron_Christine_Final_Project christinecaron$ python3 Caron_Final_Project.py
+Incorrect number of arguments, enter -h for help
+usage: Caron_Final_Project.py [-h] path
+Caron_Final_Project.py: error: the following arguments are required: path
 ```
 It prompts that you have not entered a file you would like to merge. To receive information on how 
 to run the program, enter the following:
 ```shell
-Christines-MacBook-Pro-2:Caron_Christine_PATH9577Q_FinalProject christinecaron$ python3 Caron_Final_Project.py -h
-usage: Caron_Final_Project.py [-h] path additional usage
+Christines-MacBook-Pro-2:Caron_Christine_Final_Project christinecaron$ python3 Caron_Final_Project.py -h
+usage: Caron_Final_Project.py [-h] path
 
 Merge flow cytometry CSV files and clean up unnecessary lines.
 
 positional arguments:
-  path              <input> File name you would like to merge.
-  additional usage  <example> python3 Caron_Final_Project.py <filename.csv>
+  path        <input> For usage: <python3> <Caron_Final_Project.py>
+              <filename.csv>
 
 optional arguments:
-  -h, --help        show this help message and exit
+  -h, --help  show this help message and exit
 ```
 
 Here, basically you are given instructions on a file to enter, and how to enter the arguments into the command line.
@@ -72,6 +64,16 @@ Once this is entered, your first file will be added to 'merged_file_FINAL.csv'.
 As you enter the files into the command line (I chose to do it this way since I typically only receive one flow 
 cytometry output file per experiment), they will be added to 'merged_file_FINAL.csv' file and a database will be generated, 
 with unnecessary rows removed from the file. 
+
+**Sample Input and Ouptut Photos**
+
+Sample input (one file):
+
+![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleinput.png "Sample input")
+
+Sample output (multiple merged files):
+
+![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleoutput.png "Sample output")
 
 **Authors and Contributions**
 
