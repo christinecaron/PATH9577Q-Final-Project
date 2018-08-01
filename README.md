@@ -32,7 +32,7 @@ Sample input (one file):
 
 Sample output (multiple merged files):
 
-![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleinput.png "Sample output")
+![alt text](https://github.com/christinecaron/PATH9577Q-Final-Project/blob/master/Reference%20Photos/PATH9577Q-Final-Project-sampleoutput.png "Sample output")
 
 **How to Use This Program and Features**
 
